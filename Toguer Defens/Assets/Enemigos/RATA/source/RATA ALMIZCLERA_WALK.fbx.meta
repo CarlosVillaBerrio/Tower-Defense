@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: db13d47eaf6de694fad3b1c9fcce40ae
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: beaver
+    100002: beaver_COM_ctrl
+    100004: beaver_Head_bone
+    100006: beaver_Jaw_bone
+    100008: beaver_Jaw_ctrl
+    100010: beaver_Jaw_nub_bone
+    100012: beaver_l_Ankle_bone
+    100014: beaver_l_Ear_bone
+    100016: beaver_l_Ear_ctrl
+    100018: beaver_l_Ear_nub_bone
+    100020: beaver_l_EyelidLower_bone
+    100022: beaver_l_EyelidLower_ctrl
+    100024: beaver_l_EyelidLower_ctrl001
+    100026: beaver_l_EyelidLower_nub_bone
+    100028: beaver_l_EyelidUpper_bone
+    100030: beaver_l_EyelidUpper_ctrl
+    100032: beaver_l_EyelidUpper_ctrl001
+    100034: beaver_l_EyelidUpper_nub_bone
+    100036: beaver_l_Humerus_bone
+    100038: beaver_l_Knee_bone
+    100040: beaver_l_Metacarpus_bone
+    100042: beaver_l_Paw_bone
+    100044: beaver_l_Paw_nub_bone
+    100046: beaver_l_Radius_bone
+    100048: beaver_l_Scapula_bone
+    100050: beaver_l_Scapula_ctrl
+    100052: beaver_l_Thigh_bone
+    100054: beaver_l_Toe_bone
+    100056: beaver_l_Toe_nub_bone
+    100058: beaver_Main_ctrl
+    100060: beaver_Mandible_bone
+    100062: beaver_Mandible_ctrl
+    100064: beaver_Neck_bone
+    100066: beaver_Pelvis_bone
+    100068: beaver_r_Ankle_bone
+    100070: beaver_r_Ear_bone
+    100072: beaver_r_Ear_ctrl
+    100074: beaver_r_Ear_nub_bone
+    100076: beaver_r_EyelidLower_bone
+    100078: beaver_r_EyelidLower_nub_bone
+    100080: beaver_r_EyelidUpper_bone
+    100082: beaver_r_EyelidUpper_nub_bone
+    100084: beaver_r_Humerus_bone
+    100086: beaver_r_Knee_bone
+    100088: beaver_r_Metacarpus_bone
+    100090: beaver_r_Paw_bone
+    100092: beaver_r_Paw_nub_bone
+    100094: beaver_r_Radius_bone
+    100096: beaver_r_Scapula_bone
+    100098: beaver_r_Scapula_ctrl
+    100100: beaver_r_Thigh_bone
+    100102: beaver_r_Toe_bone
+    100104: beaver_r_Toe_nub_bone
+    100106: beaver_Snout_bone
+    100108: beaver_Snout_ctrl
+    100110: beaver_Snout_nub_bone
+    100112: beaver_Spine1_bone
+    100114: beaver_Spine2_bone
+    100116: beaver_Spine3_bone
+    100118: beaver_Tail1_bone
+    100120: beaver_Tail1_ctrl
+    100122: beaver_Tail2_bone
+    100124: beaver_Tail2_ctrl
+    100126: beaver_Tail3_bone
+    100128: beaver_Tail3_ctrl
+    100130: beaver_Tail4_bone
+    100132: beaver_Tail4_ctrl
+    100134: beaver_Tail5_bone
+    100136: beaver_Tail5_ctrl
+    100138: beaver_Tail6_bone
+    100140: beaver_Tail6_ctrl
+    100142: beaver_Tail6_nub_bone
+    100144: //RootNode
+    100146: Teeth
+    100148: Tongue
+    400000: beaver
+    400002: beaver_COM_ctrl
+    400004: beaver_Head_bone
+    400006: beaver_Jaw_bone
+    400008: beaver_Jaw_ctrl
+    400010: beaver_Jaw_nub_bone
+    400012: beaver_l_Ankle_bone
+    400014: beaver_l_Ear_bone
+    400016: beaver_l_Ear_ctrl
+    400018: beaver_l_Ear_nub_bone
+    400020: beaver_l_EyelidLower_bone
+    400022: beaver_l_EyelidLower_ctrl
+    400024: beaver_l_EyelidLower_ctrl001
+    400026: beaver_l_EyelidLower_nub_bone
+    400028: beaver_l_EyelidUpper_bone
+    400030: beaver_l_EyelidUpper_ctrl
+    400032: beaver_l_EyelidUpper_ctrl001
+    400034: beaver_l_EyelidUpper_nub_bone
+    400036: beaver_l_Humerus_bone
+    400038: beaver_l_Knee_bone
+    400040: beaver_l_Metacarpus_bone
+    400042: beaver_l_Paw_bone
+    400044: beaver_l_Paw_nub_bone
+    400046: beaver_l_Radius_bone
+    400048: beaver_l_Scapula_bone
+    400050: beaver_l_Scapula_ctrl
+    400052: beaver_l_Thigh_bone
+    400054: beaver_l_Toe_bone
+    400056: beaver_l_Toe_nub_bone
+    400058: beaver_Main_ctrl
+    400060: beaver_Mandible_bone
+    400062: beaver_Mandible_ctrl
+    400064: beaver_Neck_bone
+    400066: beaver_Pelvis_bone
+    400068: beaver_r_Ankle_bone
+    400070: beaver_r_Ear_bone
+    400072: beaver_r_Ear_ctrl
+    400074: beaver_r_Ear_nub_bone
+    400076: beaver_r_EyelidLower_bone
+    400078: beaver_r_EyelidLower_nub_bone
+    400080: beaver_r_EyelidUpper_bone
+    400082: beaver_r_EyelidUpper_nub_bone
+    400084: beaver_r_Humerus_bone
+    400086: beaver_r_Knee_bone
+    400088: beaver_r_Metacarpus_bone
+    400090: beaver_r_Paw_bone
+    400092: beaver_r_Paw_nub_bone
+    400094: beaver_r_Radius_bone
+    400096: beaver_r_Scapula_bone
+    400098: beaver_r_Scapula_ctrl
+    400100: beaver_r_Thigh_bone
+    400102: beaver_r_Toe_bone
+    400104: beaver_r_Toe_nub_bone
+    400106: beaver_Snout_bone
+    400108: beaver_Snout_ctrl
+    400110: beaver_Snout_nub_bone
+    400112: beaver_Spine1_bone
+    400114: beaver_Spine2_bone
+    400116: beaver_Spine3_bone
+    400118: beaver_Tail1_bone
+    400120: beaver_Tail1_ctrl
+    400122: beaver_Tail2_bone
+    400124: beaver_Tail2_ctrl
+    400126: beaver_Tail3_bone
+    400128: beaver_Tail3_ctrl
+    400130: beaver_Tail4_bone
+    400132: beaver_Tail4_ctrl
+    400134: beaver_Tail5_bone
+    400136: beaver_Tail5_ctrl
+    400138: beaver_Tail6_bone
+    400140: beaver_Tail6_ctrl
+    400142: beaver_Tail6_nub_bone
+    400144: //RootNode
+    400146: Teeth
+    400148: Tongue
+    2100000: PIEL
+    2100002: INTERIOR
+    2100004: INTERIOR.1
+    4300000: beaver
+    4300002: Teeth
+    4300004: Tongue
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+    13700000: beaver
+    13700002: Teeth
+    13700004: Tongue
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DIENTES Y LENGUA_Rata Almizclera_01
+    second: {fileID: 2800000, guid: c525590bcd411d04fba1941cd7b5a77f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PIEL_Rata Almizclera_01
+    second: {fileID: 2800000, guid: d67a8b4f235628c4aa8fa570f6782252, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PIEL_SPEC_Rata Almizclera_01
+    second: {fileID: 2800000, guid: 7b613d165bce1e2458c7aa72a1c461d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beaver_N_1
+    second: {fileID: 2800000, guid: c263cff51eb908249b3fb58f7391ba23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beaver_N_LOW
+    second: {fileID: 2800000, guid: 6facc2adcdbeebd4694394ef2143059f, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 9
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.12
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

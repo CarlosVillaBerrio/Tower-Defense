@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ee096da8eaeceaf4ca5e890e9871eab8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - enemigoVisto: {instanceID: 0}
+  - particleBullet: {fileID: 9024413171262336084, guid: 260726a356414f542815827f921a1a72,
+      type: 3}
+  - origenBala: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
