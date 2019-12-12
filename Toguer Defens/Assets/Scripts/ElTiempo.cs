@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ElTiempo : MonoBehaviour
 {
     public bool lanzarOla_2 = false;
     public bool lanzarOla_3 = false;
-    float fTiempo = 0;
+    float fTiempo = 330f;
     int tiempo;
     public Text textTime;
 
@@ -18,7 +19,7 @@ public class ElTiempo : MonoBehaviour
 
     void Update()
     {
-        fTiempo += Time.deltaTime;
+        fTiempo -= Time.deltaTime;
         tiempo = (int)fTiempo;
         ActualizarTiempoCanvas();
     }
@@ -31,13 +32,18 @@ public class ElTiempo : MonoBehaviour
 
     void ActivadorDeOleadasPorTiempo()
     {
-        if(tiempo >= 80)
+        if(tiempo <= 250)
         {
             lanzarOla_2 = true;
         }
-        if (tiempo >= 200)
+        if (tiempo <= 120)
         {
-            lanzarOla_2 = true;
+            lanzarOla_3 = true;
         }
+        if(tiempo <= 0)
+        {
+            SceneManager.LoadScene("FantasyWin");
+        }
+    
     }
 }

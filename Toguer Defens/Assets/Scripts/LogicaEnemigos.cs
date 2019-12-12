@@ -39,8 +39,9 @@ public class LogicaEnemigos : MonoBehaviour
             {
                 barraVida.vida_actual = 0;
                 estadoVivo = false;
-                gameObject.SetActive(false);
                 GameManager.instance.cantidadRecursos += 10;
+                GameManager.instance.ActualizaRecursosEnPantalla();
+                gameObject.SetActive(false);
                 Destroy(gameObject, 0.4f);
             }            
         }

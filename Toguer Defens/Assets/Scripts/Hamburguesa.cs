@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class Hamburguesa : MonoBehaviour
@@ -30,7 +31,7 @@ public class Hamburguesa : MonoBehaviour
             if(vidaActual <= 0)
             {
                 vidaActual = 0;
-                Destroy(gameObject, 1.5f);
+                SceneManager.LoadScene("FantasyLose");
             }
         }
     }
