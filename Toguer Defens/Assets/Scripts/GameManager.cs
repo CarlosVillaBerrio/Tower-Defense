@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     public Text numCantidadRecursos;
     public Text avisoRecursos;
 
+    public bool mute;
     private void Awake()
     {
         if (instance == null)
@@ -29,5 +31,11 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         avisoRecursos.gameObject.SetActive(false);
+    }
+    
+    public void FuncionMute()
+    {
+        mute = !mute;
+        AudioListener.pause = mute;
     }
 }

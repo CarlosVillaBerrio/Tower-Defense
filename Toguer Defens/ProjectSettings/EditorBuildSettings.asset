@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/FantasyEnvironments/Environments/Scenes/FantasyLose.unity
+    guid: 75622a148422519479325a7091b564b3
+  - enabled: 1
+    path: Assets/FantasyEnvironments/Environments/Scenes/FantasyWin.unity
+    guid: 204b6202748d5f646be0d21a60cfb9b6
+  - enabled: 1
+    path: Assets/FantasyEnvironments/Environments/Scenes/FantasyDefender.unity
+    guid: 275a29409308e634aa2aae331e6db8ba
   m_configObjects: {}
